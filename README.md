@@ -2,38 +2,40 @@
 <head>
 </head>
 <body>
-<div>
-    devai/
-    	├── data/
-        │   ├── 01 raw_data.csv
-        │   ├── 02 X_train.npy
-        │   ├── 03 y_train.npy
-        │   ├── 04 X_val.npy
-        │   ├── 05 y_val.npy
-        │   ├── 06 X_test.npy
-        │   ├── 07 y_test.npy
-        │   ├── 08 model.h5
-        │   └── 09 results.csv
-     	├── notebooks/
-        │   ├── 01_explore_data.ipynb
-        │   ├── 02_preprocess_data.ipynb
-        │   ├── 03_train_model.ipynb
-        │   └── 04_evaluate_model.ipynb
-    	├── src/
-    	│   ├── 01 data.py
-        │   ├── 02 models.py
-        │   ├── 03 utils.py
-        │   ├── 04 __init__.py
-        │   └── 05 visualize.py
-    	├── env.yml
-    	├── main.py
-    	├── .gitignore
-    	├── requirements.txt
-	    ├── README.md
-	    └── setup.py
-</div>
+<h1>Structure</h1>
+    <code>
+        devai/
+        	├── data/
+            │   ├── 01 raw_data.csv
+            │   ├── 02 X_train.npy
+            │   ├── 03 y_train.npy
+            │   ├── 04 X_val.npy
+            │   ├── 05 y_val.npy
+            │   ├── 06 X_test.npy
+            │   ├── 07 y_test.npy
+            │   ├── 08 model.h5
+            │   └── 09 results.csv
+         	├── notebooks/
+            │   ├── 01_explore_data.ipynb
+            │   ├── 02_preprocess_data.ipynb
+            │   ├── 03_train_model.ipynb
+            │   └── 04_evaluate_model.ipynb
+        	├── src/
+        	│   ├── 01 data.py
+            │   ├── 02 models.py
+            │   ├── 03 utils.py
+            │   ├── 04 __init__.py
+            │   └── 05 visualize.py
+        	├── env.yml
+        	├── main.py
+        	├── .gitignore
+        	├── requirements.txt
+    	    ├── README.md
+    	    └── setup.py
+    </code>
 
 <div>
+<h1>Details</h1>
     <ul type="circle">
         <li>Env.yml</li>
         <li>Main.py</li>
