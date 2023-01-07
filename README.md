@@ -1,10 +1,8 @@
 <html>
 <head>
-<style>
-</style>
 </head>
 <body>
-<code>
+<div>
     devai/
     	├── data/
         │   ├── 01 raw_data.csv
@@ -33,10 +31,22 @@
     	├── requirements.txt
 	    ├── README.md
 	    └── setup.py
-</code>
+</div>
 
 <div>
-<h2>"env.yml"</h2>
+    <ul type="circle">
+        <li>Env.yml</li>
+        <li>Main.py</li>
+        <li>Requirements.txt</li>
+        <li>Setup.py</li>
+        <li>Data</li>
+        <li>Notebooks</li>
+        <li>Src</li>
+    </ul>
+</div>
+
+<div>
+<h2>Env.yml</h2>
 
 <p>"env.yml" è un file utilizzato da conda, una distribuzione di Python che ti permette di gestire facilmente le dipendenze e le versioni dei pacchetti Python.</p>
 
@@ -44,7 +54,7 @@
 </div>
 
 <div>
-<h2>"main.py"</h2>
+<h2>Main.py</h2>
 
 <p>"main.py" è il file principale del tuo progetto di machine learning, dove dovresti scrivere il codice che esegue l'addestramento del modello, il test del modello e qualsiasi altra operazione principale del tuo progetto.</p>
 
@@ -54,58 +64,91 @@
 </div>
 
 <div>
-<h2>"requirements.txt"</h2>
+<h2>Requirements.txt</h2>
 
 <p>"requirements.txt" è un file che contiene un elenco di dipendenze del tuo progetto di machine learning, in modo che tu possa installarle tutte insieme utilizzando il comando "pip install -r requirements.txt".
 Il file "requirements.txt" viene utilizzato per garantire che il tuo progetto funzioni correttamente su altre macchine, poiché specifica esattamente quali pacchetti e quali versioni sono necessari per eseguire il progetto.</p>
 </div>
 
 <div>
-<h2>"setup.py"</h2>
+<h2>Setup.py</h2>
 
 <p>"setup.py" è un file che viene utilizzato per creare e distribuire pacchetti Python.
 Il file "setup.py" include informazioni sul tuo progetto, come il nome, la versione, la descrizione e le dipendenze, e specifica come il progetto deve essere installato e utilizzato.</p>
 </div>
 
 <div>
-<h2>La cartella "data"</h2>
+<h2>Data</h2>
 
 <p>La cartella "data" è una cartella che viene utilizzata per memorizzare i dati che vengono utilizzati in un progetto di machine learning. </p>
 
 <p>Ecco una breve descrizione di alcuni dei tipi di file che potrebbero essere presenti nella cartella "data":
-	• raw_data.csv: un file CSV contenente i dati di input grezzi, che potrebbero essere stati scaricati da un database o da un altra fonte.
-	• X_train.npy: un file NumPy che contiene le caratteristiche del set di allenamento, che potrebbero essere state create dal notebook Jupyter "preprocess_data.ipynb".
-	• y_train.npy: un file NumPy che contiene le etichette del set di allenamento, che potrebbero essere state create dal notebook Jupyter "preprocess_data.ipynb".
-	• X_val.npy: un file NumPy che contiene le caratteristiche del set di validazione, che potrebbero essere state create dal notebook Jupyter "preprocess_data.ipynb".
-	• y_val.npy: un file NumPy che contiene le etichette del set di validazione, che potrebbero essere state create dal notebook Jupyter "preprocess_data.ipynb".
-	• X_test.npy: un file NumPy che contiene le caratteristiche del set di test, che potrebbero essere state create dal notebook Jupyter "preprocess_data.ipynb".
-	• y_test.npy: un file NumPy che contiene le etichette del set di test, che potrebbero essere state create dal notebook Jupyter "preprocess_data.ipynb".
-	• model.h5: un file che contiene il modello di machine learning addestrato, che potrebbe essere stato salvato dal notebook Jupyter "train_model.ipynb".
-    • results.csv: un file CSV che contiene i risultati della valutazione del modello, che potrebbe essere stato creato dal notebook Jupyter "evaluate_model.ipynb".
+<ul type="circle">
+	<li>raw_data.csv: un file CSV contenente i dati di input grezzi, che potrebbero essere stati scaricati da un database o da un altra fonte.</li>
+	<li>X_train.npy: un file NumPy che contiene le caratteristiche del set di allenamento, che potrebbero essere state create dal notebook Jupyter "preprocess_data.ipynb".</li>
+	<li>y_train.npy: un file NumPy che contiene le etichette del set di allenamento, che potrebbero essere state create dal notebook Jupyter "preprocess_data.ipynb".</li>
+	<li>X_val.npy: un file NumPy che contiene le caratteristiche del set di validazione, che potrebbero essere state create dal notebook Jupyter "preprocess_data.ipynb".</li>
+	<li>y_val.npy: un file NumPy che contiene le etichette del set di validazione, che potrebbero essere state create dal notebook Jupyter "preprocess_data.ipynb".</li>
+	<li>X_test.npy: un file NumPy che contiene le caratteristiche del set di test, che potrebbero essere state create dal notebook Jupyter "preprocess_data.ipynb".</li>
+	<li>y_test.npy: un file NumPy che contiene le etichette del set di test, che potrebbero essere state create dal notebook Jupyter "preprocess_data.ipynb".</li>
+	<li>model.h5: un file che contiene il modello di machine learning addestrato, che potrebbe essere stato salvato dal notebook Jupyter "train_model.ipynb".</li>
+    <li>results.csv: un file CSV che contiene i risultati della valutazione del modello, che potrebbe essere stato creato dal notebook Jupyter "evaluate_model.ipynb".</li>
+</ul>
 </p>
 </div>
 
 <div>
-<h2>La cartella "notebooks"</h2>
+<h2>Notebooks</h2>
 
 <p>La cartella "notebooks" è una cartella dove dovresti mettere i tuoi notebook Jupyter.</p>
 
 <p>I notebook Jupyter sono file interattivi che consentono di eseguire codice Python, visualizzare i risultati e scrivere annotazioni in Markdown in un unico documento. Sono spesso utilizzati per esplorare i dati, sperimentare il codice e documentare il processo di sviluppo di un progetto di machine learning.</p>
 
 <p>La cartella "notebooks" è una buona posizione per mettere i tuoi notebook Jupyter perché è separata dal resto della struttura del tuo progetto, il che rende più facile distinguere il codice sperimentale dal codice definitivo.</p>
+
+<h3>notebook Jupyter</h3>
+<ul type="circle">
+    <li>   
+    <h4>evaluate_model.ipynb</h4> 
+        <p>Il notebook Jupyter "evaluate_model.ipynb" è un file che utilizza il codice Python per valutare il modello di machine learning sui dati di test.</p>
+        <p>Nello specifico, il notebook carica le librerie necessarie (ad esempio NumPy, Pandas, TensorFlow), carica e preprocessa i dati di test, carica il modello salvato, valuta il modello sui dati di test utilizzando il metodo "evaluate", fa previsioni sui dati di test utilizzando il metodo "predict", calcola la matrice di confusione utilizzando la funzione "confusion_matrix" di TensorFlow e calcola le metriche di precisione, richiamo e F1 score utilizzando le funzioni "precision_at_k", "recall_at_k" e "f1_score".</p>
+        <p>Il notebook Jupyter "evaluate_model.ipynb" è utile perché ti consente di valutare il modello di machine learning sui dati di test e di ottenere informazioni su come il modello sta facendo previsioni sui dati di test. Ad esempio, puoi utilizzare la matrice di confusione per vedere quante previsioni corrette e sbagliate il modello sta facendo e puoi utilizzare le metriche di precisione, richiamo e F1 score per valutare la qualità delle previsioni del modello.</p>
+    </li>
+    <li>   
+    <h4>explore_data.ipynb</h4> 
+        <p>Il notebook Jupyter "explore_data.ipynb" è un file che utilizza il codice Python per esplorare i dati utilizzati per un progetto di machine learning.</p>
+        <p>Nello specifico, il notebook potrebbe caricare le librerie necessarie (ad esempio NumPy, Pandas, Matplotlib), caricare i dati dal file o dal database, eseguire il preprocesso dei dati (ad esempio la pulizia dei dati mancanti o la normalizzazione dei dati), visualizzare i dati utilizzando grafici e tabelle e analizzare i dati per cercare informazioni, relazioni e pattern.</p>
+        <p>Il notebook Jupyter "explore_data.ipynb" è utile perché ti consente di conoscere meglio i dati che stai utilizzando per il tuo progetto di machine learning. Ad esempio, puoi usare il notebook per vedere se i dati sono bilanciati o se ci sono outliers, puoi vedere come i dati sono distribuiti e puoi cercare di capire quali sono le caratteristiche più importanti dei dati.</p>
+    </li>
+    <li>   
+    <h4>train_model.ipynb</h4> 
+        <p>Il notebook Jupyter "train_model.ipynb" è un file che utilizza il codice Python per addestrare un modello di machine learning sui dati.</p>
+        <p>Nello specifico, il notebook potrebbe caricare le librerie necessarie (ad esempio NumPy, Pandas, TensorFlow), caricare i dati dal file o dal database, eseguire il preprocesso dei dati (ad esempio la pulizia dei dati mancanti o la normalizzazione dei dati), dividere i dati in set di allenamento e set di validazione, definire il modello utilizzando una libreria di deep learning come TensorFlow, compilare il modello specificando una funzione di perdita e un'ottimizzatore, addestrare il modello sui dati di allenamento utilizzando il metodo "fit" e valutare il modello sui dati di validazione utilizzando il metodo "evaluate".</p>
+        <p>Il notebook Jupyter "train_model.ipynb" è utile perché ti consente di addestrare un modello di machine learning sui dati e di ottenere informazioni su come il modello sta apprendendo dai dati. Ad esempio, puoi utilizzare il notebook per vedere come cambia la funzione di perdita durante il processo di addestramento, puoi vedere come le metriche di valutazione del modello cambiano durante il processo di addestramento e puoi salvare il modello addestrato per poterlo utilizzare in seguito.</p>
+    </li>
+    <li>   
+    <h4>preprocess_data.ipynb</h4> 
+        <p>Il notebook Jupyter "preprocess_data.ipynb" è un file che utilizza il codice Python per eseguire il preprocesso dei dati per un progetto di machine learning.</p>
+        <p>Nello specifico, il notebook potrebbe caricare le librerie necessarie (ad esempio NumPy, Pandas), caricare i dati dal file o dal database, eseguire il preprocesso dei dati (ad esempio la pulizia dei dati mancanti o la normalizzazione dei dati), convertire le variabili categoriche in variabili dummy, dividere i dati in set di allenamento, set di validazione e set di test e salvare i dati preprocessati in file (ad esempio in formato NumPy o Pandas).</p>
+        <p>Il notebook Jupyter "preprocess_data.ipynb" è utile perché ti consente di preparare i dati per l'addestramento e la valutazione del modello di machine learning. Ad esempio, puoi usare il notebook per pulire i dati mancanti, normalizzare i dati, creare le variabili dummy e dividere i dati in set di allenamento, validazione e test.</p>
+    </li>
+</ul>
+
 </div>
 
 <div>
-<h2>La cartella "src"</h2>
+<h2>Src</h2>
 
 <p>La cartella "src" è una cartella che viene solitamente utilizzata per archiviare i file di codice sorgente del tuo progetto di machine learning. Il codice sorgente è il codice che viene scritto dal programmatore e che può essere letto e modificato dall'uomo.</p>
 
 <p>La cartella "src" dovrebbe contenere i file di codice sorgente principali del tuo progetto, come ad esempio:
-	• Il file "data.py" che contiene il codice per caricare, preprocessare e salvare i dati di input.
-	• Il file "models.py" che contiene il codice per definire e addestrare il modello di machine learning.
-	• Il file "utils.py" che contiene funzioni di utilità generali che possono essere utilizzate da altri file.
-	• Il file "__init__.py" indica che la directory deve essere considerata come un pacchetto.
-    • Il file "visualize.py" che contiene il codice per visualizzare i risultati ottenuti dal modello di machine learning.
+<ul type="circle">
+	<li>Il file "data.py" che contiene il codice per caricare, preprocessare e salvare i dati di input.</li>
+	<li>Il file "models.py" che contiene il codice per definire e addestrare il modello di machine learning.</li>
+	<li>Il file "utils.py" che contiene funzioni di utilità generali che possono essere utilizzate da altri file.</li>
+	<li>Il file "__init__.py" indica che la directory deve essere considerata come un pacchetto.</li>
+    <li>Il file "visualize.py" che contiene il codice per visualizzare i risultati ottenuti dal modello di machine learning.</li>
+</ul>
 </p>
 </div>
 </body>
