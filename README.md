@@ -53,8 +53,38 @@
 <p>"env.yml" è un file utilizzato da conda, una distribuzione di Python che ti permette di gestire facilmente le dipendenze e le versioni dei pacchetti Python.</p>
 
 <p>Il file "env.yml" viene utilizzato per specificare le dipendenze del tuo progetto di machine learning e per creare un ambiente conda che include solo queste dipendenze. In questo modo, puoi essere sicuro che il tuo progetto utilizza le versioni corrette dei pacchetti e che tutte le dipendenze sono soddisfatte.</p>
-</div>
 
+<p>Per utilizzare il file, dovrai prima installare conda e quindi eseguire il comando "conda env create -f env.yml" per creare l'ambiente conda per il tuo progetto.</p>
+
+<div>
+<h3>Conda</h3>
+<p>Conda è una distribuzione di Python che include molti dei pacchetti di Python più utilizzati nella comunità di data science e machine learning. Conda ti permette di gestire facilmente le dipendenze del tuo progetto e di installare nuovi pacchetti Python senza dover gestire manualmente gli ambienti di sviluppo.</p>
+<p>Ecco i passaggi da seguire per installare Conda sul tuo sistema:
+<ul type="circle">
+	<li>Apri il tuo browser web e vai alla pagina di download di Conda: https://docs.conda.io/en/latest/miniconda.html</li>
+	<li>Scegli il sistema operativo e l'architettura della tua macchina (ad esempio, Windows, macOS o Linux e 32-bit o 64-bit).</li>
+	<li>Scarica il file di installazione di Conda per il tuo sistema operativo e l'architettura della tua macchina.</li>
+	<li>Apri il file di installazione scaricato e segui le istruzioni per installare Conda sul tuo sistema.</li>
+</p>
+<p>Una volta completata l'installazione, dovresti essere in grado di utilizzare Conda dal tuo terminale. Per verificare che l'installazione sia stata eseguita correttamente, apri il terminale e digita il seguente comando:
+</p>
+    <code> 1 	conda --version</code>
+
+
+<h4>Attiva l'ambiente</h4>
+
+<p>Se vuoi modificare il progetto di machine learning dopo aver creato l'environment conda, dovrai seguire questi passaggi:
+<ul type="circle">
+	<li>Attiva l'environment conda: prima di modificare il progetto, dovrai attivare l'environment conda in cui hai creato il progetto. Per farlo, apri il terminale e digita il seguente comando:
+	    <code>1 	conda activate nome-enviroment</code>
+        </li>
+	<li>Modifica il progetto: una volta attivato l'environment conda, puoi modificare il progetto come desideri. Ad esempio, puoi modificare il codice, aggiungere o rimuovere pacchetti o eseguire il progetto.</li>
+	<li>Deattiva l'environment conda: quando hai finito di modificare il progetto, dovrai deattivare l'environment conda prima di uscire. Per farlo, apri il terminale e digita il seguente comando:
+	    <code>1 	Conda deactive</code>
+        </li>
+</p>
+</div>
+</div>
 <div>
 <h2>Main.py</h2>
 
