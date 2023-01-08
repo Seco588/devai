@@ -76,11 +76,11 @@
 <p>Se vuoi modificare il progetto di machine learning dopo aver creato l'environment conda, dovrai seguire questi passaggi:
 <ul type="circle">
 	<li>Attiva l'environment conda: prima di modificare il progetto, dovrai attivare l'environment conda in cui hai creato il progetto. Per farlo, apri il terminale e digita il seguente comando:
-	    <code>1 	conda activate nome-enviroment</code>
+	    <code>conda activate nome-enviroment</code>
         </li>
 	<li>Modifica il progetto: una volta attivato l'environment conda, puoi modificare il progetto come desideri. Ad esempio, puoi modificare il codice, aggiungere o rimuovere pacchetti o eseguire il progetto.</li>
 	<li>Deattiva l'environment conda: quando hai finito di modificare il progetto, dovrai deattivare l'environment conda prima di uscire. Per farlo, apri il terminale e digita il seguente comando:
-	    <code>Conda deactive</code>
+	    <code>conda deactive</code>
         </li>
 </p>
 </div>
